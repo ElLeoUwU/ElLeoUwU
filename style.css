@@ -1,0 +1,116 @@
+/* Reset de estilos para garantizar consistencia en diferentes navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+/* Contenido principal */
+.contenido {
+    padding: 20px;
+}
+
+/* Estilo para las imágenes en filas de 2 hacia abajo */
+.imagenes {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imagenes img {
+    flex-basis: 48%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+/* Estilo para las imágenes con texto a la derecha */
+.imagen-con-texto {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.imagen-con-texto img {
+    flex-basis: 50%;
+    max-width: 20%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.imagen-con-texto p {
+    flex-basis: 50%;
+    max-width: 50%;
+    margin-left: 20px;
+    text-align: left;
+    color: #333;
+}
+
+/* Estilos para el anuncio */
+.ad-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.ad-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.ad-video {
+    flex: 1;
+    margin-left: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos generales para pantallas grandes */
+@media only screen and (min-width: 1080px) {
+    /* Agrega estilos para pantallas más grandes aquí */
+}
+
+/* Estilos específicos para pantallas pequeñas (móviles) */
+@media only screen and (max-width: 720px) {
+    /* Agrega estilos para pantallas más pequeñas aquí */
+}
